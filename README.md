@@ -1,5 +1,6 @@
-UnFinished basic LLM.
-Currently you can run the file from the script and it should work without error.
+UnFinished basic LLM with the goal of making a completely free community LLM. Use the code at free will, but if you make another version link it or send it to me to update this repository with the better working version.
+Currently you can run the file from the script and it should work without error. Some features like --Min[20] and --Max[] replies are broken but were fixed by a bot in another version that broke the other code (deepseek) some of the formatting needs to 
+be rearranged and topic data mustbe implemented to properly weight probability of the words for the topic, as well as add memory for certain topics if wanted. ###ENHANCED FEATURES### need to be improved and the entire thing could be shrunken into shorter functions.
 
 
 This needs it's advance features integrated: internet search integration, you can current type --internet, --python or --image to activate the unimplemented internet search/read and python or image manipulation (not generation just editing for the record).
