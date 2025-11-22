@@ -1,0 +1,47 @@
+Please note --Min and --max functions for specifying the min and max reply words is broken but a bot was able to fix it easily in the process of breaking everything else.
+
+Field Definitions:
+
+    Word Class: noun, verb, adjective, adverb, pronoun, preposition, conjunction, interjection, determiner, numeral, punctuation, number
+
+    Word: The base word (lowercase)
+
+    Singular: Singular form (same as word for non-nouns)
+
+    Plural: Plural form (empty for non-nouns)
+
+    Synonyms: Comma-separated list of similar words
+
+    Antonyms: Comma-separated list of opposite words
+
+    Meaning: Brief definition/description
+
+    Acronyms: Comma-separated list of acronyms/abbreviations
+
+    Pattern Data: JSON string with usage patterns {}
+
+
+####DICTIONARY FORMAT
+word_class; word; singular; plural; synonyms; antonyms; meaning; acronyms; pattern_data; EXPERTSCATEGORY
+
+
+##########################################PATTERN DATA STRUCTURE .JSON THAT SHOULD BE APPENDED TO DICTIONARY WORDS###############
+{
+  "position_patterns": {
+    "beginning_sentence": 5,
+    "middle_sentence": 12,
+    "end_sentence": 3
+  },
+  "common_before": ["the", "a", "my"],
+  "common_after": ["is", "are", "quickly"]
+}
+
+##################################################################################################################################
+
+Example useage:
+
+
+You: hello --internet[water]
+Internet search activated...
+
+Assistant: Internet search for: hello --internet[water] - [Implementation needed]
