@@ -1,4 +1,9 @@
-UnFinished basic LLM with the goal of making a completely free community LLM. Use the code at free will, but if you make another version link it or send it to me to update this repository with the better working version.
+UnFinished basic LLM with the goal of making a completely free community LLM.
+Please see pattern data file and the script for the features implemented (areas clearly separated).
+Also please note you need a library of at least 20,000 words for this to work correctly, you can prompt a current LLM to generate you a library based after this pattern data.
+
+
+Use the code at free will, but if you make another version link it or send it to me to update this repository with the better working version.
 Currently you can run the file from the script and it should work without error. Some features like --Min[20] and --Max[] replies are broken but were fixed by a bot in another version that broke the other code (deepseek) some of the formatting needs to 
 be rearranged and topic data must be implemented to properly weight probability of the words for the topic, as well as add memory for certain topics if wanted. ###ENHANCED FEATURES### need to be improved and the entire thing could be shrunken into shorter functions.
 
